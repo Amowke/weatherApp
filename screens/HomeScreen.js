@@ -208,6 +208,7 @@ export default function HomeScreen() {
                 <Text className='text-white text-base'> Daily forecast</Text>
               </View>
               <ScrollView
+                className='flex-1'
                 horizontal
                 contentContainerStyle={{ paddingHorizontal: 15 }}
                 showsHorizontalScrollIndicator={false}
